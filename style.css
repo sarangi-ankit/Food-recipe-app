@@ -88,7 +88,11 @@ img{
     background-color: darkgray;
     border: none;
     border-radius: 10px;
-
+    color: green;
+    font-size: 0.8rem;
+}
+.btn:hover{
+    background-color: whitesmoke;
 }
 .calorie-data{
     color:whitesmoke;

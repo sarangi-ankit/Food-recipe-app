@@ -31,7 +31,8 @@ function displayData(results){
                 <h1 class="title1">${result.recipe.label}</h1>
                 <a class="btn" href="${result.recipe.url}" target="_blank">see recipe</a>
             </div>
-                <p class="calorie-data">calorie:${result.recipe.calories}</p>
+                <p class="calorie-data">calorie: ${result.recipe.calories.toFixed(2)}</p>
+                <p class="calorie-data">dietlabel: ${result.recipe.dietLabels}</p>
         </div>
         `
         
